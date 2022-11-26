@@ -1,0 +1,8 @@
+{
+    "project_name": "Default Project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author_name": "Admin",
+    "email": "admin@example.com",
+    "use_postgres": ["yes", "no"],
+    "use_kafka": ["yes", "no"]
+}
