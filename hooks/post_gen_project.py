@@ -8,7 +8,6 @@ current_path = os.getcwd()
 logger.info(f"Current path: {current_path}")
 
 is_used_postgres = "{{cookiecutter.use_postgres}}" == "yes"
-is_used_https_backoff_client = "{{cookiecutter.use_http_backoff_client}}" == "yes"
 is_used_kafka = "{{cookiecutter.use_kafka}}" == "yes"
 
 
